@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="da" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Hovedside til præsentationsportfolio">
+		<meta name="keywords" content="HTML,CSS">
+		<meta name="author" content="Frederik Harms">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Eksamensportfolio</title>
+		<link href="CSS/index.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Sulphur+Point:300,400,700&display=swap" rel="stylesheet">
+	</head>
+		<body>
+			<header>
+			<!-- Her ses min navigation, da det er en onepage og siderne er lavet som sektioner er det nødvendigt at have # foran den valgte side. Menu punkterne står omvendt end hvordan de er vidst på den færdige side, men grundet spejlingen du laver i navigationen, så er det korrekt som det står nu, ellers vil det første punkt være "kontakt mig".  -->	
+ 				<nav>
+					<a href="#forside">
+					<img class="logo" src="Images/LOGO-FHC-MASTER-02.png" alt="logo frederik"></a>
+						<ul>
+							<li><a href="#kontaktmig">KONTAKT MIG</a></li>
+							<li><a href="#tidligereprojekter">TIDLIGERE PROJEKTER</a></li>
+							<li><a href="#minefaerdigheder">MINE FÆRDIGHEDER</a></li>
+							<li><a href="#hvemerjeg">HVEM ER JEG?</a></li>
+						</ul>		 	
+				</nav>
+			</header>
+			
+			<!-- Denne section indholder min forside, her under ses mit billede, overskifter og den vide pil som er linket til "hvem er jeg siden". Teksten er lavet som <p classer.  -->
+			<section id ="forside">
+					<img class="mig" src="Images/Frederik-H-lyserød.png" alt="Frederik Harms">
+						<p class="mitnavn"> MIT NAVN ER</p>
+						<p class="Frederik"> FREDERIK HARMS</p>
+						<p class="jeger"> &amp; JEG ER </p>
+						<p class="multimediedesigner"> MULTIMEDIEDESIGNER</p>
+							<a href="#hvemerjeg">
+							<img class="pilned" src="Images/HVIDPIL-01.png" alt="Pil ned"></a>
+			</section>
+	
+			<!-- Denne section indholder min hvem er jeg, overskriften er lavet som en <p class, samt teksten herunder her.  -->
+			<section id ="hvemerjeg">
+						<p class="info"> HVEM ER JEG?</p>
+						<p class="navn"> FREDERIK HARMS</p>
+						<p class="uddannelse"> MULTIMEDIEDESIGNER</p>
+						<p class="tekstom"> Mit navn er Frederik Harms. Jeg er 22 år, bosat i Odense og er lige nu i gang med at uddanne mig til <strong> multimediedesigner</strong>. På denne uddannelse får jeg lov til at udforme min <strong> kreativitet </strong>, men med et stort fokus på <strong> UI, brugervenlighed, research og analyse </strong>. Disse faktorer er vigtige, så jeg kan skabe det bedst mulige <strong> resultat </strong> jeg bliver stillet over for.<br><br>
+						Jeg er en positiv, glad, udadvendt, og <strong>nysgerrig</strong> person. Derfor er jeg altid på jagt efter at lære noget nyt, så jeg kan <strong>dygtiggøre</strong> mig og få erfaring. Derudover er jeg  en meget <strong>passioneret</strong> person, som har flair for detaljerne.</p>
+			</section>
+			
+			<!-- Denne section indholder mine færdigheder, overskriften er lavet som en <p class, samt teksten herunder her.  -->
+			<section id ="minefaerdigheder">
+						<p class="faerdigheder"> MINE FÆRDIGHEDER</p> 
+						<p class="hjaelpmed">Som multimediedesigner, har jeg mange forskellige færdigheder inden for medieområdet og it. Derfor kan jeg hjælpe din virksomhed med mange forskellige ting.</p>
+				
+						<p class="seher">Se hvad jeg kan hjælpe din virksomhed med lige her:   </p>
+							
+							<!-- Denne article class, er lavet som en flex container og derfor jeg starter med at definere den til at starte med, for at få tekst på billedet. Så har jeg tilføjet en div class, hvor den ønskede teskt er tilføjet i.  -->
+							<article class="container">
+								
+								<div class="foto">FOTO</div>
+									<img src="Images/FOTO-Billede.png" alt="foto faerdighed" class="galleri"/>
+								
+								<div class="video">VIDEO</div>
+									<img src="Images/VIDEO-Billede.png" alt="video faerdighed" class="galleri"/> 
+								
+								<div class="html">HTML &amp; CSS</div>
+									<img src="Images/FOTO-Html.png" alt="html faerdighed" class="galleri"/>
+								
+								<div class="grafisk">GRAFISK DESIGN</div>
+									<img src="Images/FOTO-Grafisk.png" alt="grafisk faerdighed" class="galleri"/>
+								
+								<div class="markeds">MARKEDS ANALYSE</div>
+									<img src="Images/FOTO-markeds.png" alt="markeds faerdighed" class="galleri"/>
+							</article>
+		
+							<!-- Denne article class er en tilføjelse til den sidste article class, den grå baggrund er lavet som 5 enkelt billeder, og det er også lavet som flex. Jeg har igen tilføjet en div class hvor den ønskede teskt er tilføjet.  -->
+							<article class="containerbox">
+								
+								<div class="fototekst">Mangler jeres virksomhed billeder, eller har i nogle som skal redigeres? Jeg har stor erfaring inden fotoverden, og derfor kan jeg både hjælpe jer med produkt billeder, portræt billeder eller hvad i står og har brug for.</div>
+									<img src="Images/hvidbaggrund1.png" alt="Hvid baggrund1" class="galleri2"/> 
+								
+								<div class="videotekst">Har du ideen til en ny reklamefilm, eller har i allerede en som skal redigeres?  Med programmet Adobe Premiere Pro kan jeg redigere videoen, så den bliver præcis som i ønsker den skal være.</div>
+									<img src="Images/hvidbaggrund2.png" alt="Hvid baggrund2" class="galleri2"/>
+								
+								<div class="htmltekst">Har du en hjemmeside som skal redigeres, eller har du et ønske om en? Så kan jeg hjælpe dig med at realisere dette, jeg har erfaringen inden for design og kodning i HTML &amp; CSS - Samt brug af Wordpress.</div>
+									<img src="Images/hvidbaggrund3.png" alt="Hvid baggrund3" class="galleri2"/>
+								
+								<div class="grafisktekst">Skal din virksomhed have et nyt logo, eller har du en anden grafisk design ide?  Så lad mig hjælpe dig. Jeg har erfaring i Adobe Indesign, Illustrator, Photoshop og kan derfor hjælpe med  alt dette.</div>
+									<img src="Images/hvidbaggrund4.png" alt="Hvid baggrund4" class="galleri2"/>
+								
+								<div class="markedstekst">Har du en ide om at skulle indtrængen dig på et nyd marked?  Jeg har fået redskaber og analyser som gør det muligt at analysere markedet, på den helt korrekte måde. Så du sikres den rigtige fremgangs måde </div>
+									<img src="Images/hvidbaggrund5.png" alt="Hvid baggrund5" class="galleri2"/>
+							</article>
+				
+								<!-- Endnu en overskrift som en <p class. Under det ses en endnu en flex container, hvor jeg har tilføjet Adobe logoerne. -->
+		
+								<p class="medhjaelpfra">MED HJÆLP FRA</p>
+							<article class="container2">
+									<img src="Images/photoshop-cc.png" alt="Photoshop logo" class="galleri3"/>
+								
+									<img src="Images/lightroom-cc.png" alt="Lightroom logo" class="galleri3"/> 
+								
+									<img src="Images/premiere-cc.png" alt="Premiere logo" 
+									class="galleri3"/>
+								
+									<img src="Images/adobe-illustrator-cc.png" alt="Illustrator logo" class="galleri3"/>
+								
+									<img src="Images/indesign-cc.png" alt="Indesign logo" 
+									class="galleri3"/>
+								
+									<img src="Images/adobe-dreamweawer.png" alt="Dreamweawer logo" class="galleri3"/>
+								
+									<img src="Images/adobe-animate.png" alt="Animate logo" 
+									class="galleri3"/>
+							</article>
+			</section>
+			
+	
+			<section id ="tidligereprojekter">
+						<p class="projekter"> TIDLIGERE PROJEKTER</p>
+
+							<!-- Denne flex container er anderledes i forhold til de andre. Den har fået en <a class "relativ" og linket til den valgte underside. Jeg ønskede at have et lyserødt fade over billedet, derfor er der <div classen som hedder square. Den sidste div class er igen for at få tekst på billedet.  -->				
+							<article class="containerprojekter">
+			
+								<a class="relativ" href="moodifyapp.html">
+									<div class="square">
+									<img src="../Eksamensprojekt/Images/moodifyny.jpg" alt="Moodify app på Iphone - billedet taget af (Miesha Moriniere) hentet fra pexels.com" class="galleri4"></div>
+										<div class="Moodify">MOODIFY</div></a>
+	
+								<a class="relativ" href="fyensrideklub.html">
+									<div class="square">
+									<img src="../Eksamensprojekt/Images/fyensrideklubny.jpg" alt="fyensrideklub på imac - billedet taget af (Pixabay) hentet fra pexels.com" class="galleri4"></div>
+									<div class="fyens">FYENS RIDEKLUB</div></a>
+	
+								<a class="relativ" href="wilsonsupreme.html">
+									<div class="square">
+									<img src="../Eksamensprojekt/Images/wilson_tennisboldeny.jpg" alt="Wilson tennisbolde" class="galleri4"></div>
+									<div class="wilson">WILSON PRODUKTVIDEO</div></a>
+	
+							</article>
+	
+							<article class="containerprojekter2">
+	
+								<a class="relativ" href="mitegetwebsite.html">
+									<div class="square">
+									<img src="Images/fhdesignny.jpg" alt="Frederik Harms hjemmeside på imac - billede taget af (mockupeditor), hentet fra pexels.com" class="galleri4"></div>
+									<div class="kvinderne">MIT EGET WEBSITE</div></a>
+	
+								<a class="relativ" href="potraertfotografering.html">
+									<div class="square">
+									<img src="../Eksamensprojekt/Images/idany.jpg" alt="Potræt fotografering Ida" class="galleri4"></div>
+									<div class="potraet">POTRÆT FOTOGRAFERING</div></a>
+								
+								<a class="relativ" href="hcandersen.html">
+									<div class="square">
+									<img src="../Eksamensprojekt/Images/h.c.andersenny.jpg" alt="H.C. Andersen spejlrum" class="galleri4"></div>
+									<div class="andersen">H.C. ANDERSEN MUSEUM</div></a> 
+							</article>
+	
+							<article class="containerprojekter3">
+		
+								<a class="relativ" href="frederikharmslogo.html">
+									<div class="square">
+									<img src="Images/fhdesign1ny.jpg" alt="Frederik Harms Logo" class="galleri4"></div>
+									<div class="fh">FREDERIK HARMS LOGO</div></a>
+		
+								<a class="relativ" href="pawplay.html">
+									<div class="square">
+									<img src="../Eksamensprojekt/Images/PAWPLAYny.jpg" alt="Paw play app på Iphone - billede taget af (Artem Beliaikin), hentet fra pexels.com" class="galleri4"></div>
+									<div class="pawplay">PAW PLAY</div></a>		
+	
+								<a class="relativ" href="clarionhotel.html">
+									<div class="square">
+									<img src="../Eksamensprojekt/Images/Clarionhotelny.jpg" alt="Clarion hotel" class="galleri4"></div>
+									<div class="clarion">CLARION HOTEL </div></a>
+		
+							</article>
+	
+			</section>
+	
+			<section id ="kontaktmig">
+						<p class="kontakt"> KONTAKT MIG</p>
+						<p class="kontaktmig"> Giver mit arbejde mening for dig og din virksomhed? Så er du meget velkommen til at kontakte mig - jeg vil prøve at besvare din henvendelse hurtigst muligt. </p>
+		
+							<img class="trekanter" src="Images/trekanter.png" alt="trekant art">
+		
+								<!-- Denne sektion indholder min kontakt form.  -->	
+								<div class="form">
+									<div class="form-items">
+										<input type="text" class="input" placeholder="NAVN"></div>
+									
+									<div class="form-items">
+										<input type="text" class="input" placeholder="E-MAIL"></div>
+									
+									<div class="form-items">
+										<textarea class="input message" cols="30" rows="10" placeholder="BESKED..."></textarea></div>
+								</div>
+										<div class="btn">
+											 SEND </div>
+		
+										<a href="#forside">
+										<img class="pilop" src="Images/PINKPIL-01-01.png" alt="Pink pil"></a>
+
+				</section>
+
+					<footer>Copyright © 2019 Frederik Harms - All Rights Reserved</footer>
+					
+		</body>
+</html>
